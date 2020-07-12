@@ -1,0 +1,10 @@
+.col-md-4 {
+    padding: $main-padding;
+    margin-bottom: $main-padding*4;
+}
+
+@include desktop {
+    li {
+        margin: 0px;
+    }
+}
