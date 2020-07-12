@@ -1,0 +1,20 @@
+.info-paragraph {
+    font-size: 2rem;
+}
+
+.info-text {
+    text-align: center;
+}
+
+@include desktop {
+    .info-text {
+        padding-right: $main-padding * 2;
+        text-align: left;
+    }
+    .info-buttons {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
